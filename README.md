@@ -1,8 +1,11 @@
+# Overview
 
-# OVERVIEW
 This program is a simple web service that allows users to search for and retrieve information about films. The program includes a RESTful API that can be used to access the film data, as well as a web application that allows users to search for films and view the results in a web browser.
 
-# INSTALLATION
+---------------
+
+## Installation
+
 In order to run this program, you will need to have the following software installed on your computer:
 
 	1. Eclipse: You can download the latest version of Eclipse from the Eclipse website.
@@ -23,23 +26,23 @@ To run the program, you can use the Eclipse IDE. First, make sure to have a Tomc
 	7. You should then see the server in your Servers tab
 
 
-# RUNNING THE PROGRAM
+## Running the Program
 You can run the program using Eclipse by navigating to the index.html file, right-click and select Run -> Run On Server.
 
 
-# USING THE RESTful API
+## Using RESTful API
 The RESTful API for this program is available at the following endpoint: http://localhost:8080/a-film-database/film-api
 
 You can use this API to retrieve, edit and delete information about films by sending GET, POST, PUT and DELETE requests to the endpoint using a program like Postman.
 
 
-# USING THE WEB APPLICATION
+## Using the Web Application
 The web application for this program is available at the following endpoint: http://localhost:8080/a-film-database/index.html
 
 You can use this web application to search for films and view the results in a web browser. Simply enter a search term in the search bar and click the "Search Films" button. The search results will be displayed in a table below the search bar. You can also add, update and delete films using the browser.
 
-# CODE STRUCTURE
-This program is organized into the following package structure:
+## Code Structure
+This program is organised into the following package structure:
 
 	- src/main/java/controllers: this contains the FilmAPI.java code.
 	- src/main/java/database: this contains the FilmDAO.java code.
@@ -47,10 +50,8 @@ This program is organized into the following package structure:
 	- src/main/webapp/scripts: contains the scripts.js file with the JavaScript code used by the web page.
 	- src/main/webapp/index.html: the web page to run.
 
-The code is well commented and easy to understand.
 
-# CONTACT
-If you have any questions or issues, please feel free to contact me at daniel.savage@stu.mmu.ac.uk
+
 
 
 
